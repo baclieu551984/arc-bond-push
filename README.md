@@ -190,6 +190,19 @@ npm run build
    - `DISCORD_WEBHOOK_URL` (optional)
 4. Deploy using `render.yaml` config
 
+
+
+**Deploy to Render.com:**
+1. Push code to GitHub
+2. Connect repository to Render
+3. Set environment variables:
+   - `ARC_RPC_URL`
+   - `KEEPER_PRIVATE_KEY`
+   - `BOND_SERIES_ADDRESS`
+   - `DISCORD_WEBHOOK_URL` (optional)
+4. Deploy using `render.yaml` config
+
+
 **Cron Jobs:**
 - Snapshot: Daily at 00:00 UTC
 - Monitor: Every hour
